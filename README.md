@@ -9,6 +9,7 @@ This module positions products out of stock last in the catalog listing.
 ### Enable Extension
 
 ```
+composer require mateussantin/module-out-of-stock-end-catalog
 php bin/magento module:enable MateusSantin_OutOfStockEndCatalog
 php bin/magento setup:upgrade
 php bin/magento cache:clean
