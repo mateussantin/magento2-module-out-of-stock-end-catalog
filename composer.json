@@ -1,0 +1,25 @@
+{
+    "name": "mateussantin/module-out-of-stock-end-catalog",
+    "version": "1.0.0",
+    "description": "This module positions products out of stock last in the catalog listing.",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Mateus Santin",
+            "email": "mateussantin.jr@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "magenest/core": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MateusSantin\\OutOfStockEndCatalog\\": ""
+        }
+    }
+}
