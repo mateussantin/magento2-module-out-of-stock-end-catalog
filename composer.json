@@ -2,6 +2,8 @@
     "name": "mateussantin/module-out-of-stock-end-catalog",
     "version": "1.0.0",
     "description": "This module positions products out of stock last in the catalog listing.",
+    "keywords": ["mateussantin", "magento2", "Out of stock", "Catalog"],
+    "homepage": "https://github.com/mateussantin/magento2-module-out-of-stock-end-catalog",
     "type": "magento2-module",
     "license": "OSL-3.0",
     "authors": [
